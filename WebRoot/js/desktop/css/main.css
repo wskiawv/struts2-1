@@ -1,0 +1,23 @@
+@CHARSET "UTF-8";
+.add-user { background-image: url(../images/add16.gif) !important; background-repeat: no-repeat; background-position:0% 50% !important;} 
+.add-large { background-image: url(../images/add-large.gif) !important; background-repeat: no-repeat; background-position:0% 50% !important;} 
+.add { background-image: url(../images/add.gif) !important; background-repeat: no-repeat;   background-position:0% 50% !important;} 
+.edit { background-image: url(../images/calendar_edit.png) !important; background-repeat: no-repeat;  background-position:0% 50% !important; }
+.delete { background-image: url(../images/delete.gif) !important; background-repeat: no-repeat; background-position:0% 50% !important;}
+.search { background-image: url(../images/search.gif) !important; background-repeat: no-repeat;  background-position:0% 50% !important;}
+.save { background-image: url(../images/save.gif) !important; background-repeat: no-repeat; background-position:0% 50% !important;}
+.cancel { background-image: url(../images/cancel.gif) !important; background-repeat: no-repeat; background-position:0% 50% !important; }
+.reset { background-image: url(../images/arrow_undo.png) !important; background-repeat: no-repeat; background-position:0% 50% !important; }
+.next { background-image: url(../images/arrow_right.png) !important; background-repeat: no-repeat;  background-position:0% 50% !important;}
+.book_open { background-image: url(../images/book_open.png) !important; background-repeat: no-repeat;  background-position:0% 50% !important;}
+.maintab-icon { background-image: url(../images/book.png) !important; background-repeat: no-repeat;; background-position:0% 50% !important; } 
+.tab-icon { background-image: url(../images/application_view_list.png) !important; background-repeat: no-repeat; ; background-position:0% 50% !important;} 
+.upload-icon {background: url('../images/image_add.png') no-repeat 0 0 !important;  background-position:0% 50% !important;}
+.office-member {background: url('../images/user_green.gif') no-repeat 0 0 !important; background-position:0% 50% !important;}
+.export {background: url('../images/page_excel.png') no-repeat 0 0 !important; background-position:0% 50% !important;}
+.legal {background: url('../images/bell.png') no-repeat 0 0 !important; background-position:0% 50% !important;}
+.divide {background: url('../images/arrow_switch.png') no-repeat 0 0 !important; background-position:0% 50% !important;}
+.panel-up {background: url('../images/arrow_up.png') no-repeat 0 0 !important; background-position:0% 50% !important;}
+.panel-down {background: url('../images/arrow_down.png') no-repeat 0 0 !important;  background-position:0% 50% !important;}
+.print {background: url('../images/printer.png') no-repeat 0 0 !important;  background-position:0% 50% !important;}
+.user {background: url('../images/user.gif') no-repeat 0 0 !important;  background-position:0% 50% !important;}

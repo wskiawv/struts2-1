@@ -1,0 +1,29 @@
+[{
+title:"学生管理",
+leaf:false,
+children:[{
+		id:"Student1",
+		text:"学生基本信息",
+		xtype:"Student",
+		leaf:true,
+	},{
+		id:"Student2",
+		text:"学生统计",
+		xtype:"Student",
+		leaf:true,
+	}]
+},{
+title:"教师管理",
+leaf:false,
+children:[{
+		id:"Student3"	
+		text:"教师基本信息",
+		xtype:"Student",
+		leaf:true,
+	},{
+		id:"Student4"
+		text:"教师统计",
+		xtype:"Student",
+		leaf:true,
+	}]
+}];

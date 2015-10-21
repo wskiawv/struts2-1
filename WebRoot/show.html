@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>文件预览</title>
+<link rel="stylesheet" type="text/css" href="js/FlexPaper/css/flexpaper.css'}" />
+<script type="text/javascript" src="js/FlexPaper/js/jquery.min.js'}"></script>
+<script type="text/javascript" src="js/FlexPaper/js/jquery.extensions.min.js'}"></script>
+<script type="text/javascript" src="js/FlexPaper/js/flexpaper.js'}"></script>
+<script type="text/javascript" src="js/FlexPaper/js/flexpaper_handlers.js'}"></script>
+</head>
+<body>
+<div id="documentViewer" ></div>
+    <script type="text/javascript">
+    //alert("温馨提醒",swfurl);
+       //获取地址栏传递的id参数
+       function getParam(name)
+       {
+	    	var reg=new RegExp("(^|&)"+name+"=([^&]*)(&|$)","i");       
+	    	var id=window.location.search.substr(1).match(reg);
+	    	var i;
+	    	if(id!=null)
+	    	{
+	    		i= decodeURI(id[2]);
+	    	}
+	    	return i;
+       }
+       var i=getParam('id');
+       var p=getParam('FilePath'); 
+       		//p=decodeURI(p);
+    	//alert("提示"+p);
+	$('#documentViewer').css({left:'0px',top:'0px',width:'100%',height:'100%'});
+    $('#documentViewer').FlexPaperViewer({
+		config:{
+			Scale:1,
+			SWFFile:p,
+			PDFFile:'/filesys/FileSyses/download?id='+i,
+			ZoomTransition:'easeOut',
+			ZoomTime:0.5,
+			ZoomInterval:0.1,
+			FitPageOnLoad:true,
+			FitWidthOnLoad:true,
+			FullScreenAsMaxWindow:false,
+			ProgressiveLoading:true,
+			MinZoomSize:0.2,
+			MaxZoomSize:5,
+			SearchMatchAll:true,
+			//RenderingOrder:'html5,flash',
+			RenderingOrder:'flash,html5',
+			ViewModeToolsVisible:true,
+			ZoomToolsVisible:true,
+			NavToolsVisible:true,
+			CursorToolsVisible:true,
+			SearchToolsVisible:true,
+			localeChain:'zh_CN'
+			
+		}
+	});
+    </script>
+</body>
+</html>
